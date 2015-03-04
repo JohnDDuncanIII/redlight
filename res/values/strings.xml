@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Red Light Race</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="placeHolder">Placeholder</string>
+    <string name="your_score">Score:</string>
+    <string name="my_score">Computer Score:</string>
+    <string name="turn_total">Turn Total:</string>
+    <string name="go">Go</string>
+    <string name="stop">Stop</string>
+    <string name="zero">0</string>     
+    <string name="easy">Easy</string>     
+    <string name="medium">Medium</string>     
+    <string name="hard">Hard</string> 
+    <string name="redsRemaining">Reds Remaining:</string>     
+    <string name="greensRemaining">Greens Remaining:</string>   
+    <string name="drawGreen">Drew Green</string>     
+    <string name="drawRed">Drew Red</string> 
+    <string name="chooseDifficulty">Please Choose Your Difficulty:</string>   
+    <string name="enterName">Please Enter Your Name</string>  
+    <string name="userName">User\'s Score:</string> 
+    <string name="wins">Wins: </string>   
+    <string name="losses">Losses: </string>   
+    <string name="won">won</string>   
+    <string name="mute">Enable/Disable Sound</string>   
+    <string name="of_the_time">of the time</string> 
+    <string name="tap_here">Tap here to reset stats</string>
+    <string name="debugMode">*******Test mode enabled*******</string>
+    <string name="rules">\nRules: The game of Red Light is a very simple jeopardy game in which two players race to reach 50 points. In a bag, 4 red and 24 green chips (\“lights\”) are shuffled.  Each turn, a player repeatedly draws chips until either a \“red light\” is drawn or the player holds and scores the number of \“green lights\” drawn (i.e. the turn total). At any time during a player\'s turn, the player is faced with two decisions:
+\n\nDraw (\“Go\”) - If the player draws a
+        \n\tRed: the player scores nothing and it becomes the opponent\'s turn. If the red draw was the last remaining red, all chips are returned to the bag and are shuffled.
+        \n\tGreen: the player adds 1 to their turn total and the player\'s turn continues.
+\n\nHold (\“Stop\”) - The turn total is added to the player\'s score and it becomes the opponent\'s turn.
+
+\n\nPlayers may also play this game with a standard deck of cards.  The 4 Aces serve as red lights, while the 24 cards numbered 2 through 7 serve as green lights.  In test mode, you can control the random events with your own cards/chips in order to demonstrate the fairness of computer play.
+\n
+    </string>
+    <string name="mike"> 
+Michael Booz is a student at Gettysburg College in the graduating class of 2016.  He is a Computer Science and Physics double major.  His contributions to Red Light Race focused on statistics.
+    </string>
+    <string name="john"> 
+John Duncan is a student at Gettysburg College in the graduating class of 2017.  He is interested in the fields of both Computer Science and Political Science. He has not yet declared a major.  His contributions to Red Light Race included most of the coding and interface design of the application.
+    </string>
+    <string name="jeff"> 
+Jeff Kohart is a student at Gettysburg College in the graduating class of 2017.  He is a Mathematics and Computer Science double major.  His contributions to Red Light Race included the About page and general coding.
+    </string>
+    <string name="eddy"> 
+Edward Makinde is a student at Gettysburg College in the graduating class of 2015.  He is a Computer Science major and Business minor.  His contributions to the Red Light Race included general coding.
+    </string>
+    <string name="steven"> 
+Steven Semmel is a student at Gettysburg College in the graduating class of 2016.  He is a Computer Science and History double major with a Civil War Era Studies minor.  His contributions to Red Light Race included design and group management.  
+    </string>
+    <string name="marcin">
+Marcin Malec \'13 trained the neural network Hard player based on optimal play.
+    </string>
+    <string name="todd">
+Gettysburg College Professor Todd W. Neller designed Red Light for fairness and computed optimal play for the game. http://cs.gettysburg.edu/~tneller/papers/fowlplay.pdf
+    </string>
+    <string name="userTestDrawAndReport">
+Draw and report results below or press stop."
+    </string>
+       <string name="computerTestDrawAndReport">
+Draw and report results below for me until I say stop."
+    </string>
+    
+ 
+    <string name="about">About</string>
+    <string name="stats">Stats</string>
+    <string name="tMode">Test Mode</string>
+    
+    <color name="black">#1b1b1b</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#70c656</color>
+    <color name="yellow">#f3ae1b</color>
+    <color name="red">#ef4444</color>
+    
+    
+    
+
+</resources>
