@@ -506,7 +506,7 @@ public class MainActivity extends Activity {
 	/** Plays the go sound, and ensures that the MediaPlayer object is released when it completes playing to avoid crashes **/
 	/************************************************************************************************************************/
 	private void playGo() {
-		if(isMuted) {
+		if(!isMuted) {
 			new Thread(new Runnable() {
 				public void run() {
 					Thread.yield();
@@ -534,7 +534,7 @@ public class MainActivity extends Activity {
 	/** Plays the hold rev down sound, and ensures that the MediaPlayer object is released when it completes playing to avoid crashes **/
 	/***********************************************************************************************************************************/
 	private void playStop() {
-		if(isMuted) {
+		if(!isMuted) {
 			new Thread(new Runnable() {
 				public void run() {
 					Thread.yield();
@@ -562,7 +562,7 @@ public class MainActivity extends Activity {
 	/** Plays the red brake sound, and ensures that the MediaPlayer object is released when it completes playing to avoid crashes **/
 	/*******************************************************************************************************************************/
 	private void playRed() {
-		if(isMuted) {
+		if(!isMuted) {
 			new Thread(new Runnable() {
 				public void run() {
 					Thread.yield();
@@ -590,6 +590,7 @@ public class MainActivity extends Activity {
 	/** Plays the beep sound, and ensures that the MediaPlayer object is released when it completes playing to avoid crashes **/
 	/**************************************************************************************************************************/
 	private void playBeep() {
+		if(isMuted){
 		new Thread(new Runnable() {
 			public void run() {
 				Thread.yield();
@@ -610,6 +611,7 @@ public class MainActivity extends Activity {
 				}
 			}
 		}).start();
+	}
 	}
 
 	/**************************/
