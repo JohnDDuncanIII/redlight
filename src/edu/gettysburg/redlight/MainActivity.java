@@ -590,28 +590,28 @@ public class MainActivity extends Activity {
 	/** Plays the beep sound, and ensures that the MediaPlayer object is released when it completes playing to avoid crashes **/
 	/**************************************************************************************************************************/
 	private void playBeep() {
-		if(isMuted){
-		new Thread(new Runnable() {
-			public void run() {
-				Thread.yield();
-				mp = MediaPlayer.create(MainActivity.this, R.raw.beep_beep);
+		if(!isMuted){
+			new Thread(new Runnable() {
+				public void run() {
+					Thread.yield();
+					mp = MediaPlayer.create(MainActivity.this, R.raw.beep_beep);
 
-				if(mp == null) {            
-					System.out.println("Create() on MediaPlayer failed.");       
-				} else {
-					mp.setOnCompletionListener(new OnCompletionListener() {
+					if(mp == null) {            
+						System.out.println("Create() on MediaPlayer failed.");       
+					} else {
+						mp.setOnCompletionListener(new OnCompletionListener() {
 
-						@Override
-						public void onCompletion(MediaPlayer mediaplayer) {
-							mediaplayer.stop();
-							mediaplayer.release();
-						}
-					});
-					mp.start();
+							@Override
+							public void onCompletion(MediaPlayer mediaplayer) {
+								mediaplayer.stop();
+								mediaplayer.release();
+							}
+						});
+						mp.start();
+					}
 				}
-			}
-		}).start();
-	}
+			}).start();
+		}
 	}
 
 	/**************************/

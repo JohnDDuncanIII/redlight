@@ -21,7 +21,7 @@ Current Development Screenshots
 
 ![Introductory Menu](http://goput.it/1ws4.png)
 ![In Action](http://goput.it/51bt.png)
-![More Action](http://goput.it/jwsh.png)
+![More Action](http://goput.it/jswh.png)
 
 ==========
 
