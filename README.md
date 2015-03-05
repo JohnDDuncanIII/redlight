@@ -1,6 +1,6 @@
-Poker Squares
+Red Light Race
 -------------------------------
-This is a Repository for the Gettysburg College RedLightRace android Applicaiton from the Fall 2013 CS-112 class. It is an android application version of the game, RedLight. Contributors to this project include John Duncan, Professor Dr. Todd Neller, and Marcin Malec. Project also outlined by students Edwark Makinde, Michael Booz, and Jeff Kohart. This game is based on the folk game of Pig and Fowl Play.
+This is a Repository for the Gettysburg College RedLight Race android Applicaiton from the Fall 2013 CS-112 class. It is an android application version of the game, RedLight. Contributors to this project include John Duncan, Professor Dr. Todd Neller, and Marcin Malec. Project also outlined by students Edwark Makinde, Michael Booz, and Jeff Kohart. This game is based on the folk game of Pig and Fowl Play.
 
 Features
 -------------------------------
